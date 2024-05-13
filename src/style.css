@@ -111,3 +111,34 @@ body {
     height: 50%;
 }
 
+.cali {
+    background-image: url("/images/cali.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+    color: white;
+}
+
+.mallorca {
+    background-image: url("/images/mallorca.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+    color: white;
+}
+
+.zurich {
+    background-image: url("/images/zurich.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+    color: white;
+}
+
+.lago-como {
+    background-image: url("/images/lago-como.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+    color: white;
+}
