@@ -38,7 +38,7 @@ body {
   font-size: 70px;
   font-weight: bold;
   text-shadow: black 2px 2px 2px;
-  color: white; 
+  color: white;
 }
 
 .hero-subtitle {
@@ -61,27 +61,29 @@ body {
   background-color: #17c3b2;
 }
 
-.adventure, .destinations {
+.adventure,
+.destinations {
   padding: 70px 0;
   color: white;
   margin: 0 10%;
 }
 
-.destinations-title{
-    font-size: 50px;
-    font-weight: bold;
-    color: black;
-    padding: 0px ;
+.destinations-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  padding: 0px;
 }
 
 .adventure-title {
   font-size: 50px;
   font-weight: bold;
   color: white;
-  padding: 0px ;
+  padding: 0px;
 }
 
-.adventure-subtitle, .destinations-subtitle {
+.adventure-subtitle,
+.destinations-subtitle {
   font-size: 22px;
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -89,56 +91,68 @@ body {
 }
 
 .container-tour {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
-.grid-tour {
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-gap: 30px;
-    align-items: center;
-    text-align: center;
+.grid-tour,
+.grid-togo {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-gap: 30px;
+  align-items: center;
+  text-align: center;
 }
 
 .grid-tour p {
-    font-size: 20px;
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .grid-tour img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  background-color: rgba(255, 255, 255, 0.674);
+  margin-top: 100%;
+  margin-bottom: 0;
+  padding: 20px;
 }
 
 .cali {
-    background-image: url("/images/cali.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 70px 0;
-    color: white;
+  background-image: url("/images/cali.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-radius: 40px;
 }
 
 .mallorca {
-    background-image: url("/images/mallorca.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 70px 0;
-    color: white;
+  background-image: url("/images/mallorca.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-radius: 40px;
 }
 
 .zurich {
-    background-image: url("/images/zurich.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 70px 0;
-    color: white;
+  background-image: url("/images/zurich.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-radius: 40px;
 }
 
 .lago-como {
-    background-image: url("/images/lago-como.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 70px 0;
-    color: white;
+  background-image: url("/images/lago-como.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  border-radius: 40px;
 }
