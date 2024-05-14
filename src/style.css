@@ -115,44 +115,67 @@ body {
   height: 50%;
 }
 
+.grid-togo h3 {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-togo span {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.grid-togo p {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .text1,
 .text2,
 .text3,
 .text4 {
-  background-color: rgba(255, 255, 255, 0.674);
-  margin-top: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.412),
+    rgba(255, 255, 255, 0.466)
+  );
+  margin-top: 90%;
   margin-bottom: 0;
   padding: 20px;
+  text-shadow: black 1px 1px 1px;
 }
 
 .cali {
   background-image: url("/images/cali.jpg");
   background-size: cover;
   background-position: center;
-  color: black;
-  border-radius: 40px;
+  color: white;
+  border-radius: 30px;
 }
 
 .mallorca {
   background-image: url("/images/mallorca.jpg");
   background-size: cover;
   background-position: center;
-  color: black;
-  border-radius: 40px;
+  color: white;
+  border-radius: 30px;
 }
 
 .zurich {
   background-image: url("/images/zurich.jpg");
   background-size: cover;
   background-position: center;
-  color: black;
-  border-radius: 40px;
+  color: white;
+  border-radius: 30px;
 }
 
 .lago-como {
   background-image: url("/images/lago-como.jpg");
   background-size: cover;
   background-position: center;
-  color: black;
-  border-radius: 40px;
+  color: white;
+  border-radius: 30px;
 }
