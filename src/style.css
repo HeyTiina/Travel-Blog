@@ -67,27 +67,30 @@ body {
   background-color: #17c3b2;
 }
 
+.container-deals {
+  background-color: #F5F5F5;
+}
+
 .adventure,
 .destinations,
-.news {
+.news, 
+.deals {
   padding: 70px 0;
-  color: white;
   margin: 0 10%;
 }
 
 .destinations-title,
-.news-title {
+.news-title,
+.deals-title,
+.adventure-title {
   font-size: 50px;
   font-weight: bold;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   padding: 0px;
 }
 
 .adventure-title {
-  font-size: 50px;
-  font-weight: bold;
   color: white;
-  padding: 0px;
 }
 
 .adventure-subtitle,
@@ -123,6 +126,10 @@ body {
   height: 50%;
 }
 
+.grid-tour h3 {
+  color: white;
+}
+
 /* To go */
 
 .grid-togo h3 {
@@ -143,6 +150,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.price {
+  color: #17c3b2;
+}
+
 .text1,
 .text2,
 .text3,
@@ -150,7 +161,6 @@ body {
   margin-top: 90%;
   margin-bottom: 0;
   padding: 20px;
-  text-shadow: black 1px 1px 1px;
 }
 
 .cali {
