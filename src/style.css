@@ -5,6 +5,8 @@ body {
   box-sizing: border-box;
 }
 
+/* Navbar */
+
 .navbar {
   padding: 25px 0;
 }
@@ -21,6 +23,8 @@ body {
 .navbar-brand {
   font-size: 37px;
 }
+
+/* Hero */
 
 .container-main {
   background-image: url("/images/bg.png");
@@ -57,6 +61,8 @@ body {
   background-color: rgba(0, 0, 0, 0.37);
 }
 
+/* Adventures and Activities */
+
 .container-blue {
   background-color: #17c3b2;
 }
@@ -92,7 +98,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container-tour {
+.container-box {
   padding-top: 70px;
 }
 
@@ -116,6 +122,8 @@ body {
   width: 50%;
   height: 50%;
 }
+
+/* To go */
 
 .grid-togo h3 {
   font-size: 36px;
@@ -182,81 +190,5 @@ body {
   border-radius: 30px;
 }
 
-/* Path: src/App.js */
+/* News and blog */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  padding: 20px;
-}
-
-.main-article {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-image {
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.main-content {
-  margin-top: 20px;
-}
-
-.category {
-  color: #17c3b2;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: black;
-}
-
-.description {
-  font-size: 16px;
-  color: #333;
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.article {
-  display: flex;
-  gap: 10px;
-}
-
-.article-image {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.article-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.article-title {
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
-}
-
-.date {
-  font-size: 14px;
-  color: #17c3b2;
-}
