@@ -101,10 +101,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container-box {
-  padding-top: 70px;
-}
-
 .grid-tour,
 .grid-togo {
   display: grid;
@@ -285,8 +281,6 @@ body {
   font-size: 20px;
   color: #17c3b2;
 }
-
-/* News and blog0 */
 
 /* Deals and Discounts */
 
