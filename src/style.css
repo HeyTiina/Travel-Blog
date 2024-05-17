@@ -286,30 +286,34 @@ body {
   color: #17c3b2;
 }
 
+/* News and blog0 */
+
 /* Deals and Discounts */
 
-.grid-deals h3 {
-  font-size: 20px;
-}
-
-.grid-deals1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 360px;
-  grid-gap: 30px;
-}
-
-.grid-deals2 {
+.grid-deals {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 360px;
+  grid-template-rows: 360px 360px;
   grid-gap: 30px;
+}
+
+.text-deals {
+  padding-top: 260px;
+  padding-left: 20px;
+}
+
+.text-deals h3 {
+  font-size: 20px;
 }
 
 .price-deals {
   color: white;
   font-size: 36px;
   font-weight: bold;
+} 
+
+.italy:nth-child(1)  {
+  grid-column: span 2;
 }
 
 .italy {
@@ -353,86 +357,6 @@ body {
 }
 
 .abu-dhabi {
-  background-image: url(/images/abu-dhabi.png);
-  background-size: cover;
-  background-position: center;
-  color: #17c3b2;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.text-deals {
-  padding: 260px 20px;
-}
-
-.text-deals h3 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* deals2 */
-
-.grid-deals0 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 360px 360px;
-  grid-gap: 30px;
-}
-
-.text-deals0 {
-  padding: 260px 20px;
-}
-
-.text-deals0 h3 {
-  font-size: 20px;
-}
-
-.italy0:nth-child(1)  {
-  grid-column: span 2;
-}
-
-.italy0 {
-  background-image: url(/images/italy.png);
-  background-size: cover;
-  background-position: center;
-  color: #17c3b2;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.thailand0 {
-  background-image: url(/images/thailand.png);
-  background-size: cover;
-  background-position: center;
-  color: #17c3b2;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.madrid0 {
-  background-image: url(/images/madrid.png);
-  background-size: cover;
-  background-position: center;
-  color: #17c3b2;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.hong-kong0 {
-  background-image: url(/images/hong-kong.png);
-  background-size: cover;
-  background-position: center;
-  color: #17c3b2;
-  border-radius: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.abu-dhabi0 {
   background-image: url(/images/abu-dhabi.png);
   background-size: cover;
   background-position: center;
