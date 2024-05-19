@@ -30,12 +30,22 @@ body {
   background-image: url("/images/bg.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.hero {
-  padding: 100px 0;
-  margin-left: 43%;
+.brand {
   color: white;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-left: 150px;
+  position: absolute;
+}
+
+.main-title {
+  color: white;
+  padding-top: 14%;
+  margin-left: 40%;
 }
 
 .hero-title {
@@ -43,21 +53,24 @@ body {
   font-weight: bold;
   color: white;
   text-shadow: black 2px 2px 2px;
+  margin: 0px;
 }
 
 .hero-subtitle {
   font-size: 22px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
 }
+
 
 .hero-plan {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   color: white;
-  padding: 55px 0;
-  margin: 0;
+  padding: 50px 0;
+  margin-top: 8.5%;
   background-color: rgba(0, 0, 0, 0.37);
 }
 
@@ -76,7 +89,7 @@ body {
 .news,
 .deals,
 .maps,
-.table0 {
+.schedule {
   padding: 70px 0;
   margin: 0 10%;
 }
@@ -86,7 +99,7 @@ body {
 .deals-title,
 .adventure-title,
 .maps-title,
-.table-title {
+.schedule-title {
   font-size: 50px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
@@ -102,7 +115,7 @@ body {
 .adventure-subtitle,
 .destinations-subtitle,
 .maps-subtitle,
-.table-subtitle {
+.schedule-subtitle {
   font-size: 22px;
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -117,6 +130,7 @@ body {
   align-items: center;
   text-align: center;
   overflow-x: auto;
+  padding-top: 50px;
 }
 
 .grid-tour p {
@@ -238,6 +252,7 @@ body {
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 20px;
 }
 
 .side-articles {
@@ -300,10 +315,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 360px 360px;
   grid-gap: 30px;
+  padding-top: 20px;
 }
 
 .text-deals {
-  padding: 260px 5px 0px 5px;
+  padding: 220px 5px 0px 5px;
 }
 
 .text-deals h3 {
@@ -376,6 +392,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+  padding-top: 20px;
 }
 
 .maps-item {
@@ -383,6 +400,10 @@ body {
   border-radius: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.maps-item h3{
+  font-size: 29px;      
 }
 
 .maps-item p {
@@ -406,6 +427,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .month span:hover {
@@ -417,13 +439,13 @@ table {
   border-collapse: collapse;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  table-layout:initial;
+  table-layout: initial;
   overflow-x: auto;
 }
 
 .main-table {
-overflow-x: auto;
-} 
+  overflow-x: auto;
+}
 
 th,
 td {
@@ -446,6 +468,16 @@ td:hover {
 
 .clear:hover {
   background-color: hsla(358, 92%, 76%, 0.374);
+}
+
+/* Footer */
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
 }
 
 /* Responsive */
