@@ -30,8 +30,6 @@ body {
   background-image: url("/images/bg.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .brand {
@@ -69,7 +67,8 @@ body {
   text-align: center;
   color: white;
   padding: 50px 0;
-  margin-top: 8.5%;
+  margin-bottom: 0px;
+  margin-top: 120px;
   background-color: rgba(0, 0, 0, 0.37);
 }
 
@@ -520,16 +519,16 @@ footer {
 @media (max-width: 480px) {
   .brand {
     font-size: 20px;
-    padding-top: 30px
+    padding-top: 30px;
   }
 
   .main-title {
-    margin:0 50px;
-    padding-top: 100px;
+    margin: 0 50px;
+    padding-top: 155px;
   }
 
   .hero-title {
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
     padding-top: 0px;
