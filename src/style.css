@@ -522,19 +522,25 @@ footer {
     font-size: 20px;
     padding-top: 30px
   }
+
   .main-title {
-    font-size: 25px;
-    text-align: center;
-    margin: 0;
-    padding-top 20px;
+    margin:0 50px;
+    padding-top: 100px;
   }
 
-  .main-subtitle {
+  .hero-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0px;
+  }
+
+  .hero-subtitle {
     font-size: 18px;
   }
 
   .hero-plan {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .adventure-title,
